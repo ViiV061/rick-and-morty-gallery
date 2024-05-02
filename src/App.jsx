@@ -14,7 +14,6 @@ function App() {
     <>
       <div className="App">
         <Navigation />
-        <h1>Welcome to rick and morty gallery</h1>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/characters" element={<Characters />} />

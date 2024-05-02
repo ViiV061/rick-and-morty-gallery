@@ -1,29 +1,46 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./Navigation.module.css";
 
 function Navigation() {
   return (
     <nav className={styles.nav}>
       <ul className={styles.list}>
-        <li className={styles.item}>
-          <Link to="/" className={styles.link}>
+        <li>
+          <NavLink
+            to="/"
+            exact
+            className={styles.link}
+            activeClassName={styles.active}
+          >
             Home
-          </Link>
+          </NavLink>
         </li>
-        <li className={styles.item}>
-          <Link to="/characters" className={styles.link}>
+        <li>
+          <NavLink
+            to="/characters"
+            className={styles.link}
+            activeClassName={styles.active}
+          >
             Characters
-          </Link>
+          </NavLink>
         </li>
-        <li className={styles.item}>
-          <Link to="/locations" className={styles.link}>
+        <li>
+          <NavLink
+            to="/locations"
+            className={styles.link}
+            activeClassName={styles.active}
+          >
             Locations
-          </Link>
+          </NavLink>
         </li>
-        <li className={styles.item}>
-          <Link to="/episodes" className={styles.link}>
+        <li>
+          <NavLink
+            to="/episodes"
+            className={styles.link}
+            activeClassName={styles.active}
+          >
             Episodes
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>

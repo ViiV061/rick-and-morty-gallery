@@ -1,5 +1,4 @@
 .nav {
-  background-color: #333;
   padding: 16px;
 }
 
@@ -16,12 +15,13 @@
 }
 
 .link {
-  color: #fff;
+  color: #f5f5f5;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  padding: 8px 16px;
-  border-radius: 4px;
+  padding: 5px 20px;
+  margin: 0 20px;
+  border-radius: 5px;
   transition: background-color 0.3s;
   border: none;
   background-color: #4caf50;
@@ -29,5 +29,10 @@
 }
 
 .link:hover {
-  background-color: #45a049;
+  background-color: #97ce4c;
+  color: #333;
+}
+
+.active {
+  background-color: #44c0f0;
 }

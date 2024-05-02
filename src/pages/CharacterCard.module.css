@@ -1,9 +1,10 @@
 .card {
   width: 200px;
+  background-color: #2b2b2b;
+  border: 2px solid #97ce4c;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 16px;
-  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
   text-align: center;
 }
 
@@ -24,7 +25,7 @@
 
 .status {
   font-size: 14px;
-  color: #666666;
+  color: #a7a7a7;
   margin-bottom: 5px;
 }
 

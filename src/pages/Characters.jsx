@@ -53,9 +53,9 @@ function Characters() {
     return <div>Loading...</div>;
   }
   return (
-    <div>
+    <div className={styles.characters}>
       <h1>Characters {characters.length}</h1>
-      <div className={styles.card}>
+      <div className={styles.gird}>
         {characters.map((character) => (
           <CharacterCard key={character.id} character={character} />
         ))}

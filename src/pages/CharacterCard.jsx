@@ -19,13 +19,13 @@ function CharacterCard({ character }) {
           alt={character.name}
         />
       </Link>
-      <Link to={`/characters/${character.id}`}>
-        <h2 className={styles.name}>{character.name}</h2>
-      </Link>
       <p className={styles.status}>
         {statusColor}
         {character.status} - {character.species}
       </p>
+      <Link to={`/characters/${character.id}`}>
+        <h2 className={styles.name}>{character.name}</h2>
+      </Link>
     </div>
   );
 }
