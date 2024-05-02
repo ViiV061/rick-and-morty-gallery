@@ -1,0 +1,21 @@
+.
+├── App.css
+├── App.jsx
+├── assets
+│   └── react.svg
+├── components
+│   ├── Gallery.jsx
+│   └── Navigation.jsx
+├── index.css
+├── main.jsx
+├── output.txt
+└── pages
+    ├── CharacterCard.jsx
+    ├── CharacterDetails.jsx
+    ├── Characters.css
+    ├── Characters.jsx
+    ├── Episodes.jsx
+    ├── Home.jsx
+    └── Locations.jsx
+
+4 directories, 15 files

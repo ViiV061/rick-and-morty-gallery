@@ -1,0 +1,40 @@
+.card {
+  width: 200px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.status {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.location {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.episode {
+  font-size: 14px;
+  color: #666666;
+}
