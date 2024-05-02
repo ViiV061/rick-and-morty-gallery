@@ -1,0 +1,33 @@
+.nav {
+  background-color: #333;
+  padding: 16px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: 0 16px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  border: none;
+  background-color: #4caf50;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #45a049;
+}

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Characters.css";
+import styles from "./Characters.module.css";
 import CharacterCard from "./CharacterCard";
 
 function Characters() {
@@ -55,7 +55,7 @@ function Characters() {
   return (
     <div>
       <h1>Characters {characters.length}</h1>
-      <div className="character-container">
+      <div className={styles.card}>
         {characters.map((character) => (
           <CharacterCard key={character.id} character={character} />
         ))}
